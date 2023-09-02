@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "サイトをJekyllに移動しました。"
+date:   2023-01-29 10:36
+author: Sora
+categories: NewSites
+image:      assets/images/05.png
+---
+
+新しいサイトに移動しました！

@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Sep 2023 17:48:15 +0900</pubDate>
-    <lastBuildDate>Sat, 30 Sep 2023 17:48:15 +0900</lastBuildDate>
+    <pubDate>Sat, 30 Sep 2023 17:51:12 +0900</pubDate>
+    <lastBuildDate>Sat, 30 Sep 2023 17:51:12 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -51,7 +51,7 @@
 
 &lt;h1 id=&quot;画像集準備中&quot;&gt;画像集(準備中)&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/07.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    Update Information
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;    Update Information
         2023.9.30   ・動作角煮→動作確認
                     ・JLCPCBのリンク追加
                     ・画像追加

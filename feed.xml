@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Oct 2023 12:51:27 +0900</pubDate>
-    <lastBuildDate>Sat, 28 Oct 2023 12:51:27 +0900</lastBuildDate>
+    <pubDate>Sat, 28 Oct 2023 12:53:47 +0900</pubDate>
+    <lastBuildDate>Sat, 28 Oct 2023 12:53:47 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -53,7 +53,8 @@
 &lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/01.jpg&quot; alt=&quot;1&quot; /&gt;
 &lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/02.jpg&quot; alt=&quot;2&quot; /&gt;
 &lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/03.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Update-Information&quot;&gt;2023.10.30   ・動作角煮→動作確認
+&lt;pre&gt;&lt;code class=&quot;language-Update-Information&quot;&gt;2023.10.30   
+        ・動作角煮→動作確認
         ・JLCPCBのリンク追加
     2023.10.28
         ・画像追加

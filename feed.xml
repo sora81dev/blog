@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Oct 2023 19:02:10 +0900</pubDate>
-    <lastBuildDate>Sun, 29 Oct 2023 19:02:10 +0900</lastBuildDate>
+    <pubDate>Sun, 29 Oct 2023 19:03:41 +0900</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2023 19:03:41 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -49,7 +49,7 @@
 &lt;h1 id=&quot;次回予告&quot;&gt;次回予告&lt;/h1&gt;
 &lt;p&gt;次回は、直したラインセンサー基板を紹介できればいいと思っています。なるべく早めに、しっかりとミスをしないように作成したいと思います。&lt;/p&gt;
 
-&lt;h1 id=&quot;画像集準備中&quot;&gt;画像集(準備中)&lt;/h1&gt;
+&lt;h1 id=&quot;画像集&quot;&gt;画像集&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/01.jpg&quot; alt=&quot;1&quot; /&gt;
 &lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/02.jpg&quot; alt=&quot;2&quot; /&gt;
 &lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/03.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;

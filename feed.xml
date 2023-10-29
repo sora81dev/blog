@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Oct 2023 12:53:47 +0900</pubDate>
-    <lastBuildDate>Sat, 28 Oct 2023 12:53:47 +0900</lastBuildDate>
+    <pubDate>Sun, 29 Oct 2023 18:24:11 +0900</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2023 18:24:11 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -56,7 +56,7 @@
 &lt;pre&gt;&lt;code class=&quot;language-Update-Information&quot;&gt;2023.10.30   
         ・動作角煮→動作確認
         ・JLCPCBのリンク追加
-    2023.10.28
+       .28
         ・画像追加
 &lt;/code&gt;&lt;/pre&gt;
 </description>

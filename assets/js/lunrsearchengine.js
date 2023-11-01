@@ -7,7 +7,7 @@ var documents = [{
     }, {
     "id": 1,
     "url": "/about",
-    "title": "About",
+    "title": "Profile",
     "body": "そら: こんにちは！日本のthe中心に住んでる人です！趣味はロボット製作です！ 2021: RCJ Soccer Beginerにちゃチャ茶として参加しました。同年、2021に全国大会に出場し、41位。 2022: RCJ Soccer LightweightにSTとして参加しました。県大会12位（14チーム）。 Link:GithubLink:Twitter 2023 -: RCJ Soccer Lightweightに珈琲牛乳を結成。 Link:Github Link:Twitter Contact:  Twitter:@sora81dev Github:sora81devこのブログについて: このブログは以下のレポジトリをフォークしたものを使用し、Netlifyを用いてホスティングしています。 "
     }, {
     "id": 2,
@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "/contact",
     "title": "Contact",
-    "body": "  Please send your message to そらのサイト. We will reply as soon as possible!   "
+    "body": "現在準備中 "
     }, {
     "id": 4,
     "url": "/",

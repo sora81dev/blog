@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Oct 2023 14:53:42 +0900</pubDate>
-    <lastBuildDate>Tue, 31 Oct 2023 14:53:42 +0900</lastBuildDate>
+    <pubDate>Wed, 01 Nov 2023 23:02:05 +0900</pubDate>
+    <lastBuildDate>Wed, 01 Nov 2023 23:02:05 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -241,6 +241,10 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
       <item>
         <title>サイトをJekyllに移動しました。</title>
         <description>&lt;p&gt;新しいサイトに移動しました！&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Update-information&quot;&gt;2023.11.01
+    ・トップ画像編集
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sun, 29 Jan 2023 10:36:00 +0900</pubDate>
         <link>/20230129/</link>

@@ -7,8 +7,8 @@ var documents = [{
     }, {
     "id": 1,
     "url": "/about",
-    "title": "Memoirs, a free minimalist Jekyll blogging theme with modern design",
-    "body": "This website is a demonstration to see Memoirs Jekyll theme in action. The theme is compatible with Github pages, in fact even this demo itself is created with Github Pages and hosted with Github.  Get Memoirs for Jekyll → "
+    "title": "About",
+    "body": "そら: こんにちは！日本のthe中心に住んでる人です！趣味はロボット製作です！ 2021: RCJ Soccer Beginerにちゃチャ茶として参加しました。同年、2021に全国大会に出場し、41位。 2022: RCJ Soccer LightweightにSTとして参加しました。県大会12位（14チーム）。 Link:GithubLink:Twitter 2023 -: RCJ Soccer Lightweightに珈琲牛乳を結成。 Link:Github Link:Twitter Contact:  Twitter:@sora81dev Github:sora81devこのブログについて: このブログは以下のレポジトリをフォークしたものを使用し、Netlifyを用いてホスティングしています。 "
     }, {
     "id": 2,
     "url": "/categories",

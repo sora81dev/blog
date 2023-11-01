@@ -6,24 +6,24 @@ var documents = [{
     "body": "404 Page not found!Please use the search bar from the bottom left or visit our homepage! "
     }, {
     "id": 1,
-    "url": "/about",
-    "title": "Profile",
-    "body": "そら: こんにちは！日本のthe中心に住んでる人です！趣味はロボット製作です！ 2021: RCJ Soccer Beginerにちゃチャ茶として参加しました。同年、2021に全国大会に出場し、41位。 2022: RCJ Soccer LightweightにSTとして参加しました。県大会12位（14チーム）。 Link:GithubLink:Twitter 2023 -: RCJ Soccer Lightweightに珈琲牛乳を結成。 Link:Github Link:Twitter Contact:  Twitter:@sora81dev Github:sora81devこのブログについて: このブログは以下のレポジトリをフォークしたものを使用し、Netlifyを用いてホスティングしています。 "
-    }, {
-    "id": 2,
     "url": "/categories",
     "title": "Categories",
     "body": ""
     }, {
-    "id": 3,
+    "id": 2,
     "url": "/contact",
     "title": "Contact",
     "body": "現在準備中 "
     }, {
-    "id": 4,
+    "id": 3,
     "url": "/",
     "title": "Home",
     "body": "                                                                                               ラインセンサー基板（ミス）              :       タイトルについて:                                                                               そら                 24 Sep 2023                                                                                                                           ボールセンサー基板              :       今日はロボカップのボールセンサー基板を作成したので、紹介したいと思います。:                                                                               そら                 13 Aug 2023                                                                                                                           JLCPCBとの契約              :       こんにちは。ブログも久しぶりですね。:                                                                               そら                 09 Aug 2023                                                                                                                           にゃんにゃんにゃんの日              :       まずはどうぞ  Your browser does not support the video tag. :                                                                               そら                 22 Feb 2023                                                                                                                           サイトをJekyllに移動しました。              :       新しいサイトに移動しました！:                                                                               そら                 29 Jan 2023                                "
+    }, {
+    "id": 4,
+    "url": "/about",
+    "title": "Profile",
+    "body": "そら: こんにちは！日本のthe中心に住んでる人です！趣味はロボット製作です！ 2021: RCJ Soccer Beginerにちゃチャ茶として参加しました。同年、2021に全国大会に出場し、41位。 2022: RCJ Soccer LightweightにSTとして参加しました。県大会12位（14チーム）。 Link:GithubLink:Twitter 2023 -: RCJ Soccer Lightweightに珈琲牛乳を結成。 Link:Github Link:Twitter Contact:  Twitter:@sora81dev Github:sora81devこのブログについて: このブログは以下のレポジトリをフォークしたものを使用し、Netlifyを用いてホスティングしています。 "
     }, {
     "id": 5,
     "url": "/robots.txt",

@@ -5,9 +5,138 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Nov 2023 00:06:37 +0900</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2023 00:06:37 +0900</lastBuildDate>
+    <pubDate>Sat, 25 Nov 2023 22:12:45 +0900</pubDate>
+    <lastBuildDate>Sat, 25 Nov 2023 22:12:45 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>JLCPCBにおいての基盤発注</title>
+        <description>&lt;p&gt;みなさん。JLCPCBを使ったことはありますか？&lt;/p&gt;
+
+&lt;p&gt;私は使い倒しているのですが、そんなJLCPCBへの発注について&lt;br /&gt;
+👦「難しそう。&lt;del&gt;中国の企業だし&lt;/del&gt;」&lt;br /&gt;
+という疑問を持ったことはありませんか？&lt;/p&gt;
+
+&lt;p&gt;今回はこのような疑問を解消すべく、発注方法をわかりやすくお伝えできればなと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;1概要&quot;&gt;1.概要&lt;/h1&gt;
+&lt;p&gt;まずはJLCPCBについておさらいをしましょう。&lt;/p&gt;
+
+&lt;p&gt;JLCPCBのサイトはこちらから↓&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;China&apos;s Largest PCB Prototype Manufacturer, offers 24 hours Quick Turn PCB prototype, PCB assembly and Reliable small-batch PCB production.&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com/&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+&lt;p&gt;　　&lt;/p&gt;
+
+&lt;p&gt;JLCPCBとは中国にある世界的基盤製作企業です。&lt;br /&gt;
+中国などでは梱包が雑や過剰であったりしますが、JLCPCBはそんなことはありません。&lt;/p&gt;
+
+&lt;p&gt;基板はビニール（薄め）の中にJLCPCBのはこがあり、その中にしっかりとした梱包がある。&lt;br /&gt;
+そんな状態で中国から基板が届きます。&lt;/p&gt;
+
+&lt;h1 id=&quot;2発注方法&quot;&gt;2.発注方法&lt;/h1&gt;
+&lt;p&gt;では、さっそく基板を発注していきましょう。&lt;/p&gt;
+
+&lt;p&gt;まずは、JLCPCBが&lt;strong&gt;日本人のみ&lt;/strong&gt;に配布しているクーポンをGETしにいきましょう。&lt;br /&gt;
+それがこちらです。&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/JPV&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;Have Your PCB Assembled in 24 Hours with In-stock 40k+ Original Components JLCPCB provided. Reduce Your Time And Cost From PCB to SMT Service&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com/JPV&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+
+&lt;p&gt;ここにアクセスした後、&lt;code&gt;$54クーポンを獲得&lt;/code&gt;を押すと $54ぶんの注文が&lt;strong&gt;無料&lt;/strong&gt;になります。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Note📒:&lt;br /&gt;
+獲得するにはアカウントの作成が必要になります。
+右上の&lt;code&gt;Sign In&lt;/code&gt;から作成をお願いします。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;有益情報：&lt;br /&gt;
+Twitterアカウントをフォローすると追加で$10クーポンがもらえます。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;それでは、発注しに行きましょう。
+まずは下記サイトに飛んでいただき、&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/JPV&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;Have Your PCB Assembled in 24 Hours with In-stock 40k+ Original Components JLCPCB provided. Reduce Your Time And Cost From PCB to SMT Service&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+&lt;p&gt;　　&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;メモ📝：&lt;br /&gt;
+日本語だと翻訳が変になりやすいので、自動翻訳をOFFにしておくことを推奨します。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;まず、&lt;code&gt;Resources&lt;/code&gt;を押して、&lt;code&gt;PCB Assenbly&lt;/code&gt;を押してください。&lt;br /&gt;
+その後、&lt;code&gt;Get Started&lt;/code&gt;を押してください。&lt;br /&gt;
+これで発注画面に移動しました。
+そうすると下のようなサイトに飛ぶと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/1125/01.png&quot; alt=&quot;p&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;そうしたら、&lt;code&gt;Add gerber file&lt;/code&gt;を押し、ガーバーファイルを選択してください。&lt;/p&gt;
+
+&lt;p&gt;その後は好きに設定していってください。&lt;/p&gt;
+
+&lt;p&gt;私のおすすめは&lt;br /&gt;
+1.PCB Thickness(基板厚さ)が1.2&lt;br /&gt;
+2.PCB Color(色)がBlack&lt;/p&gt;
+
+&lt;p&gt;実際にそちらの設定で発注したのがこちらです。&lt;br /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/2023/1125/02.jpg&quot; alt=&quot;p&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意：&lt;br /&gt;
+ケーブル・センサー等はありません（画像張替え予定）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ブラックはマットな質感でとても美しいです&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意：&lt;br /&gt;
+スポンサーだからって忖度しているわけではありません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;では、気を取り直して。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;メモ📝：&lt;br /&gt;
+PCB Assemblyはない条件として進めます（追記予定）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;次は製造速度ですね。&lt;br /&gt;
+お金に余裕がある方は最速を選べばいいでしょうし、&lt;br /&gt;
+節約したいという方はその他のプランを選べばいいと思います。&lt;/p&gt;
+
+&lt;p&gt;もちろんですが、早いだけで、&lt;strong&gt;質は同じ&lt;/strong&gt;だということを忘れないでくださいね。&lt;/p&gt;
+
+&lt;p&gt;そしたら、&lt;code&gt;Save to cart&lt;/code&gt;を押してください。&lt;/p&gt;
+
+&lt;p&gt;これで基盤がカートに入りました。&lt;/p&gt;
+
+&lt;h1 id=&quot;3注文&quot;&gt;3.注文&lt;/h1&gt;
+&lt;p&gt;正直わかるという方はスキップしてもらって構わないです。&lt;/p&gt;
+
+&lt;p&gt;では行きましょう。&lt;br /&gt;
+そういえば、ここは時間をあけてもう一度注文前にもう一度基板を確認することをお勧めします。&lt;br /&gt;
+これだけでミスが減ります。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Secure check out&lt;/code&gt;を押し、&lt;br /&gt;
+住所を登録後、配送プランを選択し、&lt;br /&gt;
+(クーポンを使いたい方はここです。)支払方法を選択。&lt;br /&gt;
+そして支払います。&lt;/p&gt;
+
+&lt;p&gt;以上で注文が完了します。&lt;/p&gt;
+
+&lt;h1 id=&quot;4最後に&quot;&gt;4.最後に&lt;/h1&gt;
+&lt;p&gt;今回の記事も見ていただいてありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;明日はノード大会なので寝ますね。おやすみなさい！&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Nov 2023 22:12:00 +0900</pubDate>
+        <link>/20231125/</link>
+        <guid isPermaLink="true">/20231125/</guid>
+        
+        <category>JLCPCB</category>
+        
+        
+        <category>基板</category>
+        
+      </item>
     
       <item>
         <title>ラインセンサー基板（ミス）</title>

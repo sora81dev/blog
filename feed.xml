@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Nov 2023 20:49:51 +0900</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 20:49:51 +0900</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2023 20:55:41 +0900</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 20:55:41 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -379,15 +379,7 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
     
       <item>
         <title>サイトをJekyllに移動しました。</title>
-        <description>&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot; /&gt;
-
-&lt;meta name=&quot;twitter:title&quot; content=&quot;そらのサイト&quot; /&gt;
-
-&lt;meta name=&quot;twitter:description&quot; content=&quot;サイトをJekyllに移動しました。&quot; /&gt;
-
-&lt;meta name=&quot;twitter:image&quot; content=&quot;https://sora81.dev/assets/images/2023/0129/hero.png&quot; /&gt;
-
-&lt;p&gt;新しいサイトに移動しました！&lt;/p&gt;
+        <description>&lt;p&gt;新しいサイトに移動しました！&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-Update-information&quot;&gt;2023.11.01
     ・トップ画像編集

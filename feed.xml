@@ -5,13 +5,25 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Nov 2023 20:55:41 +0900</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 20:55:41 +0900</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2023 21:13:45 +0900</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 21:13:45 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>JLCPCBにおいての基盤発注</title>
-        <description>&lt;p&gt;みなさん。JLCPCBを使ったことはありますか？&lt;/p&gt;
+        <description>&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot; /&gt;
+
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@sora81dev&quot; /&gt;
+
+&lt;meta property=&quot;og:url&quot; content=&quot;https://sora81.dev/20231125/&quot; /&gt;
+
+&lt;meta property=&quot;og:title&quot; content=&quot;JLCPCBにおいての基盤発注&quot; /&gt;
+
+&lt;meta property=&quot;og:description&quot; content=&quot;JLCPCBでの発注のやり方を解説します。&quot; /&gt;
+
+&lt;meta property=&quot;og:image&quot; content=&quot;https://sora81d.dev/assets/images/2023/1125/hero.jpg&quot; /&gt;
+
+&lt;p&gt;みなさん。JLCPCBを使ったことはありますか？&lt;/p&gt;
 
 &lt;p&gt;私は使い倒しているのですが、そんなJLCPCBへの発注について&lt;br /&gt;
 👦「難しそう。&lt;del&gt;中国の企業だし&lt;/del&gt;」&lt;br /&gt;

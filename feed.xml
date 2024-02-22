@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>そらのサイト</title>
+    <description>そらのサイト</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 22 Feb 2024 22:34:19 +0900</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 22:34:19 +0900</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;h1 id=&quot;まずはどうぞ&quot;&gt;まずはどうぞ&lt;/h1&gt;
+&lt;video controls=&quot;&quot; width=&quot;400&quot;&gt;
+  &lt;source src=&quot;https://sora81.dev/assets/2024/0222/catday2024.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://digital.onl.jp&quot;&gt;使用した時計&lt;/a&gt;
+いつものごとくこの時計です！
+この時計便利…&lt;/p&gt;
+
+&lt;h1 id=&quot;まとめ&quot;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;ことしはなんか猫の日の盛り上がりがすごい気がします。&lt;br /&gt;
+私が去年見てなかっただけだと思うんですけどね（）&lt;/p&gt;
+
+&lt;p&gt;ところで、皆さんこれを覚えていますか？&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;またらいねんもとりたいな
+
+2023年2月22日投稿　「にゃんにゃんにゃんの日」より
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;今年も取れました！！&lt;/strong&gt;&lt;br /&gt;
+つまり、このブログはこのデザインにしてから約1周年ということです！！&lt;/p&gt;
+
+&lt;p&gt;来年も撮ります！！！(もはや風物詩)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Feb 2024 22:34:19 +0900</pubDate>
+        <link>/2024-02-22-20240222/</link>
+        <guid isPermaLink="true">/2024-02-22-20240222/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>JLCPCBにおいての基盤発注</title>
+        <description>&lt;p&gt;みなさん。JLCPCBを使ったことはありますか？&lt;/p&gt;
+
+&lt;p&gt;私は使い倒しているのですが、そんなJLCPCBへの発注について&lt;br /&gt;
+👦「難しそう。&lt;del&gt;中国の企業だし&lt;/del&gt;」&lt;br /&gt;
+という疑問を持ったことはありませんか？&lt;/p&gt;
+
+&lt;p&gt;今回はこのような疑問を解消すべく、発注方法をわかりやすくお伝えできればなと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;1概要&quot;&gt;1.概要&lt;/h1&gt;
+&lt;p&gt;まずはJLCPCBについておさらいをしましょう。&lt;/p&gt;
+
+&lt;p&gt;JLCPCBのサイトはこちらから↓&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;China&apos;s Largest PCB Prototype Manufacturer, offers 24 hours Quick Turn PCB prototype, PCB assembly and Reliable small-batch PCB production.&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com/&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+&lt;p&gt;　　&lt;/p&gt;
+
+&lt;p&gt;JLCPCBとは中国にある世界的基盤製作企業です。&lt;br /&gt;
+中国などでは梱包が雑や過剰であったりしますが、JLCPCBはそんなことはありません。&lt;/p&gt;
+
+&lt;p&gt;基板はビニール（薄め）の中にJLCPCBのはこがあり、その中にしっかりとした梱包がある。&lt;br /&gt;
+そんな状態で中国から基板が届きます。&lt;/p&gt;
+
+&lt;h1 id=&quot;2発注方法&quot;&gt;2.発注方法&lt;/h1&gt;
+&lt;p&gt;では、さっそく基板を発注していきましょう。&lt;/p&gt;
+
+&lt;p&gt;まずは、JLCPCBが&lt;strong&gt;日本人のみ&lt;/strong&gt;に配布しているクーポンをGETしにいきましょう。&lt;br /&gt;
+それがこちらです。&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/JPV&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;Have Your PCB Assembled in 24 Hours with In-stock 40k+ Original Components JLCPCB provided. Reduce Your Time And Cost From PCB to SMT Service&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com/JPV&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+
+&lt;p&gt;ここにアクセスした後、&lt;code&gt;$54クーポンを獲得&lt;/code&gt;を押すと $54ぶんの注文が&lt;strong&gt;無料&lt;/strong&gt;になります。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Note📒:&lt;br /&gt;
+獲得するにはアカウントの作成が必要になります。
+右上の&lt;code&gt;Sign In&lt;/code&gt;から作成をお願いします。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;有益情報：&lt;br /&gt;
+Twitterアカウントをフォローすると追加で$10クーポンがもらえます。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;それでは、発注しに行きましょう。
+まずは下記サイトに飛んでいただき、&lt;/p&gt;
+&lt;div id=&quot;html-part&quot; class=&quot;link-card-wrapper&quot;&gt;&lt;a class=&quot;link-card&quot; href=&quot;https://jlcpcb.com/JPV&quot;&gt;&lt;div class=&quot;link-card-content&quot;&gt;&lt;div class=&quot;link-card-text&quot; id=&quot;grid-content-2&quot;&gt;&lt;p class=&quot;link-card-title&quot;&gt;PCB Prototype &amp;amp; PCB Fabrication Manufacturer - JLCPCB&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;grid-content-3&quot;&gt;&lt;p class=&quot;link-card-description&quot;&gt;Have Your PCB Assembled in 24 Hours with In-stock 40k+ Original Components JLCPCB provided. Reduce Your Time And Cost From PCB to SMT Service&lt;/p&gt;&lt;div class=&quot;link-card-domain&quot;&gt;&lt;img id=&quot;favicon-image-code&quot; src=&quot;https://jlcpcb.com/lcsvg/pcbtitle.png&quot; /&gt;&lt;p&gt;https://jlcpcb.com&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;.link-card-wrapper{width:100%;box-sizing:border-box;background-color:#fff;border:1px solid gray;border-radius:8px;margin:0;padding:10px}.link-card,a:hover,a:focus{text-decoration:none;outline:none;color:#333}.link-card-image,.link-card-text{width:100%}.link-card-image img{width:100%;max-width:100%}.link-card-title{font-size:140%;line-height:1.5;font-weight:700;margin:0 0 10px 0}blockquote{font-size:17px;margin:0 0 10px 0;padding:0 20px;border-left:5px solid #ddd}.card-blockquote p{margin:0;padding:5px 0}.link-card-description{line-height:1.5;margin:0 0 10px 0}.link-card-domain{display:flex}.link-card-domain img{width:16px;height:16px;margin:0 8px 0 0}.link-card-domain p{display:inline-block;margin:0 10px 0 0;color:gray;font-size:14px;line-height:1.2}@media (min-width:640px){.link-card-content{width:100%;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto 1fr}.link-card-title{margin:0}#grid-content-1{grid-column:1 / 2;grid-row:2 / 3}#grid-content-2{grid-column:1 / 3;grid-row:1 / 2}#grid-content-3{grid-column:2 / 3;grid-row:2 / 3;display:grid;grid-template-rows:auto 1fr;margin-top:5px;padding-left:20px}.link-card-image{width:100%;margin:5px 0}.link-card-image img{width:150px}.link-card-description{margin:0 0 10px 0}.link-card-domain{align-items:end;margin-bottom:5px}}&lt;/style&gt;
+&lt;p&gt;　　&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;メモ📝：&lt;br /&gt;
+日本語だと翻訳が変になりやすいので、自動翻訳をOFFにしておくことを推奨します。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;まず、&lt;code&gt;Resources&lt;/code&gt;を押して、&lt;code&gt;PCB Assenbly&lt;/code&gt;を押してください。&lt;br /&gt;
+その後、&lt;code&gt;Get Started&lt;/code&gt;を押してください。&lt;br /&gt;
+これで発注画面に移動しました。
+そうすると下のようなサイトに飛ぶと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/1125/01.png&quot; alt=&quot;p&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;そうしたら、&lt;code&gt;Add gerber file&lt;/code&gt;を押し、ガーバーファイルを選択してください。&lt;/p&gt;
+
+&lt;p&gt;その後は好きに設定していってください。&lt;/p&gt;
+
+&lt;p&gt;私のおすすめは&lt;br /&gt;
+1.PCB Thickness(基板厚さ)が1.2&lt;br /&gt;
+2.PCB Color(色)がBlack&lt;/p&gt;
+
+&lt;p&gt;実際にそちらの設定で発注したのがこちらです。&lt;br /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/2023/1125/02.jpg&quot; alt=&quot;p&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意：&lt;br /&gt;
+ケーブル・センサー等はありません（画像張替え予定）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ブラックはマットな質感でとても美しいです&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意：&lt;br /&gt;
+スポンサーだからって忖度しているわけではありません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;では、気を取り直して。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;メモ📝：&lt;br /&gt;
+PCB Assemblyはない条件として進めます（追記予定）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;次は製造速度ですね。&lt;br /&gt;
+お金に余裕がある方は最速を選べばいいでしょうし、&lt;br /&gt;
+節約したいという方はその他のプランを選べばいいと思います。&lt;/p&gt;
+
+&lt;p&gt;もちろんですが、早いだけで、&lt;strong&gt;質は同じ&lt;/strong&gt;だということを忘れないでくださいね。&lt;/p&gt;
+
+&lt;p&gt;そしたら、&lt;code&gt;Save to cart&lt;/code&gt;を押してください。&lt;/p&gt;
+
+&lt;p&gt;これで基盤がカートに入りました。&lt;/p&gt;
+
+&lt;h1 id=&quot;3注文&quot;&gt;3.注文&lt;/h1&gt;
+&lt;p&gt;正直わかるという方はスキップしてもらって構わないです。&lt;/p&gt;
+
+&lt;p&gt;では行きましょう。&lt;br /&gt;
+そういえば、ここは時間をあけてもう一度注文前にもう一度基板を確認することをお勧めします。&lt;br /&gt;
+これだけでミスが減ります。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Secure check out&lt;/code&gt;を押し、&lt;br /&gt;
+住所を登録後、配送プランを選択し、&lt;br /&gt;
+(クーポンを使いたい方はここです。)支払方法を選択。&lt;br /&gt;
+そして支払います。&lt;/p&gt;
+
+&lt;p&gt;以上で注文が完了します。&lt;/p&gt;
+
+&lt;h1 id=&quot;4最後に&quot;&gt;4.最後に&lt;/h1&gt;
+&lt;p&gt;今回の記事も見ていただいてありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;明日はノード大会なので寝ますね。おやすみなさい！&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Nov 2023 22:12:00 +0900</pubDate>
+        <link>/20231125/</link>
+        <guid isPermaLink="true">/20231125/</guid>
+        
+        <category>JLCPCB</category>
+        
+        
+        <category>基板</category>
+        
+      </item>
+    
+      <item>
+        <title>ラインセンサー基板（ミス）</title>
+        <description>&lt;h1 id=&quot;タイトルについて&quot;&gt;タイトルについて&lt;/h1&gt;
+
+&lt;p&gt;タイトルが「ラインセンサー基板（ミス）」になっていますよね。&lt;br /&gt;
+理由は簡単です。&lt;/p&gt;
+
+&lt;p&gt;理由は&lt;strong&gt;間違えた&lt;/strong&gt;からです。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;正確には、抵抗の分圧や、本数を間違えました。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;JLCPCBさん、本当に申し訳ございません。&lt;/p&gt;
+
+&lt;p&gt;JLCPCBの公式HPはこちらからどうぞ&lt;br /&gt;
+&lt;a href=&quot;https://jlcpcb.com/JPV&quot;&gt;JLCPCB(公式)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/JLCPCB.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;なので、二度と私が過ちを侵さないために、なぜミスをしたのかを公開しておきたいと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;どこで間違えたか&quot;&gt;どこで間違えたか&lt;/h1&gt;
+&lt;p&gt;私は、動くかどうかを確認するのを忘れていました。&lt;br /&gt;
+つまり、ブレッドボードにチェックせずに動かしてしまいました。&lt;/p&gt;
+
+&lt;p&gt;それは本当に間違えた行為であり、するべき行動なのに間違えてしまいした。&lt;/p&gt;
+
+&lt;p&gt;私は届いたときに、動作確認をしたところ、なんと、動きませんでした。ブレッドボードでも動きませんでした。&lt;/p&gt;
+
+&lt;p&gt;その瞬間に、私は回路にミスがあることが分かりました。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;抵抗の分圧が間違っていました。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;なので、もう二度とミスをしないために、ブレットボードに配線をまずはおこない、それで動いたら、初めて基板を作成するべきでした。&lt;/p&gt;
+
+&lt;h1 id=&quot;まとめ&quot;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;現在、新しい基板を作成しています。JLCPCBさん、本当に申し訳ございません。&lt;/p&gt;
+
+&lt;h1 id=&quot;次回予告&quot;&gt;次回予告&lt;/h1&gt;
+&lt;p&gt;次回は、直したラインセンサー基板を紹介できればいいと思っています。なるべく早めに、しっかりとミスをしないように作成したいと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;画像集&quot;&gt;画像集&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/01.jpg&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/02.jpg&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/2023/0924/03.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Update-Information&quot;&gt;2023.10.30   
+        ・動作角煮→動作確認
+        ・JLCPCBのリンク追加
+       .28
+        ・画像追加
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sun, 24 Sep 2023 13:44:00 +0900</pubDate>
+        <link>/20230924/</link>
+        <guid isPermaLink="true">/20230924/</guid>
+        
+        <category>RCJ</category>
+        
+        
+        <category>JLCPCB</category>
+        
+        <category>基板</category>
+        
+      </item>
+    
+      <item>
+        <title>ボールセンサー基板</title>
+        <description>&lt;p&gt;今日はロボカップのボールセンサー基板を作成したので、紹介したいと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sora81dev/2023-PCB/tree/main/Ball%20Sensor%20Board&quot;&gt;今回のレポジトリ&lt;/a&gt;
+&lt;strong&gt;注意　BSBとBSB-2がありますが、両方がないと使えません。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/%E4%BB%8A%E6%97%A5%E3%81%AE%E9%80%B2%E6%8D%97?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#今日の進捗&lt;/a&gt;&lt;br /&gt;まさかのいっぱつ！&lt;br /&gt;あとは値かくにんのみ！ &lt;a href=&quot;https://t.co/66d24wVQ0i&quot;&gt;pic.twitter.com/66d24wVQ0i&lt;/a&gt;&lt;/p&gt;&amp;mdash; そら@RCJJ (@sora81dev) &lt;a href=&quot;https://twitter.com/sora81dev/status/1680081574480732161?ref_src=twsrc%5Etfw&quot;&gt;July 15, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;↑これですね&lt;/p&gt;
+
+&lt;h1 id=&quot;基盤の構成&quot;&gt;基盤の構成&lt;/h1&gt;
+
+&lt;p&gt;レポジトリの説明についての時に乗せたように、2つに基盤が分かれています。
+それぞれ目的は違います。そして、今回は&lt;strong&gt;1ケーブルで&lt;/strong&gt;接続できるようにしています。&lt;/p&gt;
+
+&lt;p&gt;1つ目はボールセンサー(TSSP58038)のみを乗せています。
+2つ目はそのボールセンサーの制御基板になっています。とかいっても、RP2040とかは載っていませんが。&lt;/p&gt;
+
+&lt;p&gt;なぜ分けたかというと、どちらかが壊れた際に簡単に交換することができるようにするためです。
+ロボカップで壊れることはしょっちゅうあることです。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;私も一週間前にTJ3Bを壊したことがあります。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;そして、簡単に交換するために、1つ目と2つ目は&lt;strong&gt;1本で&lt;/strong&gt;2つ目とメインは&lt;strong&gt;2本+電源1本&lt;/strong&gt;のみでつなげれるようにしました。&lt;/p&gt;
+
+&lt;h1 id=&quot;なんで-tssp58038にしたのか&quot;&gt;なんで TSSP58038にしたのか&lt;/h1&gt;
+
+&lt;p&gt;ここまで読んできてきっと疑問に思っていると思います&lt;/p&gt;
+
+&lt;p&gt;そう。「TSSP5038って生産終了してるよね？なんでTSSP4038にしないの？」って。&lt;/p&gt;
+
+&lt;p&gt;正直、理由は一つです。買ったサイトでは、TSSP58038のほうが&lt;strong&gt;安い&lt;/strong&gt;からです。
+これにつきます。&lt;/p&gt;
+
+&lt;p&gt;そしてこれも交換式にした理由で、TSSP58038からTSSP4038に移行する際、基盤をすべて交換する必要があります。そして費用も掛かります。
+そのために私は1つ目のやつさえ変えれば直せます。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;プログラムの修正が必要なのは承知の上です。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;基盤作成したところ&quot;&gt;基盤作成したところ&lt;/h1&gt;
+
+&lt;p&gt;前回記事にはJLCPCBについて詳しく伝えるといいましたが、それは次回に回します。&lt;/p&gt;
+
+&lt;p&gt;ほんで、作成したところは、いつもおなじみのJLCPCBさんです。&lt;/p&gt;
+
+&lt;p&gt;↓ JLCPCBさんのサイトはこちらから&lt;br /&gt;
+&lt;a href=&quot;https://jlcpcb.com/JPV&quot;&gt;JLCPCB公式サイト(日本語)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの基板 + USB-Cでプログラム書き込めるやつ　の二つを発注しましたが、最速便でまさかの&lt;strong&gt;3日&lt;/strong&gt;で届きました。
+嘘じゃないですよ。ほんとです。正直めちゃくちゃ驚きました。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;追記：そういえば、最速便はバカ高いのでご注意を。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;最後に&quot;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;またまた短かったですが、いかがでしたでしょうか。技術紹介的なものはありませんが、
+Blendのいぬわしくんを実際に高専Open Canvasのときに見てきました。
+そのときに思ったんです。
+&lt;strong&gt;簡単に分離できるのはすごくいいこと&lt;/strong&gt;と。
+上下分離が&lt;strong&gt;1本&lt;/strong&gt;というのにすごく惹かれまして。
+今回のボールセンサーに実現したわけです。
+(一つにまとめれば簡単とは言ってはいけませんよ。)&lt;/p&gt;
+
+&lt;h1 id=&quot;画像集&quot;&gt;画像集&lt;/h1&gt;
+&lt;p&gt;作った上での画像です。(一部はTwitterに載っています)
+&lt;img src=&quot;https://sora81.dev/assets/images/02.jpg&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/03.jpg&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;https://sora81.dev/assets/images/04.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;次回&quot;&gt;次回&lt;/h1&gt;
+&lt;p&gt;次回こそJLCPCBさんについて詳しくお伝えします。&lt;/p&gt;
+
+&lt;p&gt;また次の時まで。じゃあね👋&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Aug 2023 17:49:00 +0900</pubDate>
+        <link>/20230813/</link>
+        <guid isPermaLink="true">/20230813/</guid>
+        
+        <category>RCJ</category>
+        
+        
+        <category>基板</category>
+        
+        <category>JLCPCB</category>
+        
+      </item>
+    
+      <item>
+        <title>JLCPCBとの契約</title>
+        <description>&lt;p&gt;こんにちは。ブログも久しぶりですね。&lt;/p&gt;
+
+&lt;p&gt;バグがありまして… URLも使えなくなっていた状況でした。何が起こっているかというのは別の記事で紹介するとして、今回は私の所属しているSTとJLCPCBさんについて話していきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://JLCPCB.com/JPV?from=sora81dev&quot;&gt;JLCPCB (公式) ホームページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;↑$54クーポンが無料でもらえますので是非&lt;/p&gt;
+
+&lt;h2 id=&quot;どうやってそもそも契約したのか&quot;&gt;どうやってそもそも契約したのか&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;極稀に&lt;/strong&gt;DMでどうやってスポンサー契約したの？とか聞かれたりもします&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;本当にごくまれにです。
+いままでで3回ぐらいです&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;簡単に言うと、TwitterのDMでJLCPCB公式さんに送りました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/jlcpcb_japan&quot;&gt;JLCPCB (公式) Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;どんな内容を送ったのかは教えてはいけない気がするので教えませんが、どんな構成だったのかはお伝えしておきます。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;正直言って参考になりません。ご自身で考えて記入することをお勧めいたします。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前半は、どのようなことをしているのか。それにおいて、どのような立場なのかを書きました。
+そして後半は、なぜ契約しようと思ったのかを書きます。正直ここが一番大切だと思ってます。&lt;/p&gt;
+
+&lt;p&gt;以上になります。&lt;/p&gt;
+
+&lt;p&gt;もう一度言いますが、&lt;strong&gt;ご自身&lt;/strong&gt;で書くことをお勧めします。（じゃあなんでこれ書いたんだよ）&lt;/p&gt;
+
+&lt;h2 id=&quot;最後に&quot;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;ほんとに申し訳ございませんでした。正直放置してました。ごめんなさい。ネームサーバー代が…ということで、Netlifyで作り直しましたのでよろしくお願いします！&lt;/p&gt;
+
+&lt;h2 id=&quot;次の記事&quot;&gt;次の記事&lt;/h2&gt;
+&lt;p&gt;つぎはJLCPCBとはどんな企業なのか。を詳しくお伝えしたいと思います。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Aug 2023 00:00:00 +0900</pubDate>
+        <link>/20230809/</link>
+        <guid isPermaLink="true">/20230809/</guid>
+        
+        <category>RCJ</category>
+        
+        
+        <category>JLCPCB</category>
+        
+      </item>
+    
+      <item>
+        <title>にゃんにゃんにゃんの日</title>
+        <description>&lt;h1 id=&quot;まずはどうぞ&quot;&gt;まずはどうぞ&lt;/h1&gt;
+&lt;video controls=&quot;&quot; width=&quot;400&quot;&gt;
+  &lt;source src=&quot;https://sora81.dev/assets/movie/01.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;#　奇跡的に取れました。
+ちょうどパソコン開いたら22:21ふんで、いそいで収録して編集しました。
+ちなみに編集ソフトはClipchampです。
+&lt;a href=&quot;https://digital.onl.jp&quot;&gt;使用した時計&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;まとめ&quot;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;またらいねんもとりたいな。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;・2023.11.1
+    ・トップ画像編集
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2023 22:53:00 +0900</pubDate>
+        <link>/20230222/</link>
+        <guid isPermaLink="true">/20230222/</guid>
+        
+        <category>趣味</category>
+        
+        
+        <category>Nyanko</category>
+        
+      </item>
+    
+      <item>
+        <title>サイトをJekyllに移動しました。</title>
+        <description>&lt;p&gt;新しいサイトに移動しました！&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Update-information&quot;&gt;2023.11.01
+    ・トップ画像編集
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sun, 29 Jan 2023 10:36:00 +0900</pubDate>
+        <link>/20240129/</link>
+        <guid isPermaLink="true">/20240129/</guid>
+        
+        
+        <category>NewSites</category>
+        
+      </item>
+    
+  </channel>
+</rss>

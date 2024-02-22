@@ -5,12 +5,12 @@
     <description>そらのサイト</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Feb 2024 22:42:32 +0900</pubDate>
-    <lastBuildDate>Thu, 22 Feb 2024 22:42:32 +0900</lastBuildDate>
+    <pubDate>Thu, 22 Feb 2024 22:47:49 +0900</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 22:47:49 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title></title>
+        <title>#猫の日2024</title>
         <description>&lt;h1 id=&quot;まずはどうぞ&quot;&gt;まずはどうぞ&lt;/h1&gt;
 &lt;video controls=&quot;&quot; width=&quot;400&quot;&gt;
   &lt;source src=&quot;https://sora81.dev/assets/2024/0222/catday2024.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -37,10 +37,14 @@
 
 &lt;p&gt;来年も撮ります！！！(もはや風物詩)&lt;/p&gt;
 </description>
-        <pubDate>Thu, 22 Feb 2024 22:42:32 +0900</pubDate>
-        <link>/2024-02-22-20240222/</link>
-        <guid isPermaLink="true">/2024-02-22-20240222/</guid>
+        <pubDate>Thu, 22 Feb 2024 22:22:00 +0900</pubDate>
+        <link>/20240222/</link>
+        <guid isPermaLink="true">/20240222/</guid>
         
+        <category>猫</category>
+        
+        
+        <category>記念日</category>
         
       </item>
     

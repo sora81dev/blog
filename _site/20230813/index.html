@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="/assets/images/logo.png">
+
+    <title>ボールセンサー基板 | そらのサイト</title>
+
+    <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@sora81dev" />
+
+<meta name="og:url" content="https://sora81.dev/20230813/">
+
+<meta name="og:title" content="ボールセンサー基板" />
+
+
+<meta name="og:description" content="そらのサイト" />
+
+
+<meta name="og:image" content="https://sora81.dev/images/assets/images/03.jpg" />
+
+
+    <link href="/assets/css/prism.css" rel="stylesheet">
+
+    <link href="/assets/css/theme.css" rel="stylesheet">
+
+    <script src="/assets/js/jquery.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B4X3HXZKS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5B4X3HXZKS');
+    </script>
+</head>
+
+
+
+
+
+<body>
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+        <link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+            integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </noscript>
+
+    <!-- Begin Sidebar Navigation
+================================================== -->
+
+    <div class="sidebar">
+    </div>
+    <div class="nav-icon">
+        <div class="hamburger-bar"></div>
+    </div>
+    <div id="blackover-nav" class="blackover"></div>
+    <nav id="menu">
+        <ul>
+            <h3>Navigation</h3>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">Profile</a></li>
+            <!-- <li><a href="/authors">Contributors <span class="badge badge-primary">new</span></a></li> -->
+            <!-- <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li> -->
+            <li><a href="/contact">Contact</a></li>
+            <li><a target="_blank"></a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/tags">Tags</a></li>
+        </ul>
+    </nav>
+
+    <script src="/assets/js/lunr.js"></script>
+
+<style>
+    
+</style>
+
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+
+    <!-- End Sidebar Navigation
+================================================== -->
+
+    <div class="site-content ">
+
+        <div class="container">
+
+            <!-- Site Logo/Name
+    ================================================== -->
+
+            <a class="navbar-brand" href="/">
+                <img src="/assets/images/logo.png" alt="そらのサイト">
+            </a>
+
+
+            <!-- Site Tag
+    ================================================== -->
+            
+
+            <!-- Content
+    ================================================== -->
+            <div class="main-content">
+                <div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">ボールセンサー基板</h1>
+    <!-- Author & Date  Box -->
+    
+    
+    <div class="d-flex align-items-center mt-4">
+        <div>
+            
+            <img class="author-thumb" src="/assets/images/avatar.jpg" alt="そら">
+            
+        </div>            
+        <div>
+        Written by そら on 
+        <span class="post-date"><time class="post-date" datetime="2023-08-13">13 Aug 2023</time></span>           
+        
+        </div>            
+    </div>
+    
+</div>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+
+
+<!-- Featured Image -->
+
+<div class="entry-featured-image">
+    
+    <img class="featured-image " src="/assets/images/03.jpg" alt="ボールセンサー基板">
+    
+</div>
+
+
+<!-- Content -->
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    
+    <!-- End Toc -->
+    <p>今日はロボカップのボールセンサー基板を作成したので、紹介したいと思います。</p>
+
+<p><a href="https://github.com/sora81dev/2023-PCB/tree/main/Ball%20Sensor%20Board">今回のレポジトリ</a>
+<strong>注意　BSBとBSB-2がありますが、両方がないと使えません。</strong></p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E4%BB%8A%E6%97%A5%E3%81%AE%E9%80%B2%E6%8D%97?src=hash&amp;ref_src=twsrc%5Etfw">#今日の進捗</a><br />まさかのいっぱつ！<br />あとは値かくにんのみ！ <a href="https://t.co/66d24wVQ0i">pic.twitter.com/66d24wVQ0i</a></p>&mdash; そら@RCJJ (@sora81dev) <a href="https://twitter.com/sora81dev/status/1680081574480732161?ref_src=twsrc%5Etfw">July 15, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>↑これですね</p>
+
+<h1 id="基盤の構成">基盤の構成</h1>
+
+<p>レポジトリの説明についての時に乗せたように、2つに基盤が分かれています。
+それぞれ目的は違います。そして、今回は<strong>1ケーブルで</strong>接続できるようにしています。</p>
+
+<p>1つ目はボールセンサー(TSSP58038)のみを乗せています。
+2つ目はそのボールセンサーの制御基板になっています。とかいっても、RP2040とかは載っていませんが。</p>
+
+<p>なぜ分けたかというと、どちらかが壊れた際に簡単に交換することができるようにするためです。
+ロボカップで壊れることはしょっちゅうあることです。</p>
+<blockquote>
+  <p>私も一週間前にTJ3Bを壊したことがあります。</p>
+</blockquote>
+
+<p>そして、簡単に交換するために、1つ目と2つ目は<strong>1本で</strong>2つ目とメインは<strong>2本+電源1本</strong>のみでつなげれるようにしました。</p>
+
+<h1 id="なんで-tssp58038にしたのか">なんで TSSP58038にしたのか</h1>
+
+<p>ここまで読んできてきっと疑問に思っていると思います</p>
+
+<p>そう。「TSSP5038って生産終了してるよね？なんでTSSP4038にしないの？」って。</p>
+
+<p>正直、理由は一つです。買ったサイトでは、TSSP58038のほうが<strong>安い</strong>からです。
+これにつきます。</p>
+
+<p>そしてこれも交換式にした理由で、TSSP58038からTSSP4038に移行する際、基盤をすべて交換する必要があります。そして費用も掛かります。
+そのために私は1つ目のやつさえ変えれば直せます。</p>
+<blockquote>
+  <p>プログラムの修正が必要なのは承知の上です。</p>
+</blockquote>
+
+<h1 id="基盤作成したところ">基盤作成したところ</h1>
+
+<p>前回記事にはJLCPCBについて詳しく伝えるといいましたが、それは次回に回します。</p>
+
+<p>ほんで、作成したところは、いつもおなじみのJLCPCBさんです。</p>
+
+<p>↓ JLCPCBさんのサイトはこちらから<br />
+<a href="https://jlcpcb.com/JPV">JLCPCB公式サイト(日本語)</a></p>
+
+<p>ちなみにこの基板 + USB-Cでプログラム書き込めるやつ　の二つを発注しましたが、最速便でまさかの<strong>3日</strong>で届きました。
+嘘じゃないですよ。ほんとです。正直めちゃくちゃ驚きました。</p>
+<blockquote>
+  <p>追記：そういえば、最速便はバカ高いのでご注意を。</p>
+</blockquote>
+
+<h1 id="最後に">最後に</h1>
+
+<p>またまた短かったですが、いかがでしたでしょうか。技術紹介的なものはありませんが、
+Blendのいぬわしくんを実際に高専Open Canvasのときに見てきました。
+そのときに思ったんです。
+<strong>簡単に分離できるのはすごくいいこと</strong>と。
+上下分離が<strong>1本</strong>というのにすごく惹かれまして。
+今回のボールセンサーに実現したわけです。
+(一つにまとめれば簡単とは言ってはいけませんよ。)</p>
+
+<h1 id="画像集">画像集</h1>
+<p>作った上での画像です。(一部はTwitterに載っています)
+<img src="https://sora81.dev/assets/images/02.jpg" alt="1" />
+<img src="https://sora81.dev/assets/images/03.jpg" alt="2" />
+<img src="https://sora81.dev/assets/images/04.jpg" alt="3" /></p>
+
+<h1 id="次回">次回</h1>
+<p>次回こそJLCPCBさんについて詳しくお伝えします。</p>
+
+<p>また次の時まで。じゃあね👋</p>
+
+</div>
+
+<!-- Rating -->
+
+
+<!-- Author Box if enabled from _config.yml -->
+<!-- Author Box -->
+
+
+
+
+<!-- Comments if not disabled with comments: false -->
+<!-- Comments
+================================================== -->
+ 
+<div class="comments mt-5">
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load Comments</button>         
+    <div id="comments">  
+        <h4 class="mb-4">Comments</h4>                 
+            <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+     
+    <div class="clearfix"></div>              
+    </div>    
+</div>       
+
+
+<!-- Share -->
+<div class="share">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank"
+                href="https://twitter.com/intent/tweet?text=ボールセンサー基板｜そらのサイト&url=https://sora81.dev/20230813/"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=/20230813/"
+                onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- Related Post -->
+<!-- Related Posts
+================================================== -->
+<div class=" related-posts ">  
+
+    
+    <h2 class="text-center mb-4">Explore more like this</h2>
+    
+    
+    <div class="d-flex justify-content-center align-items-center">
+    
+    <!-- Categories -->
+    
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#JLCPCB">JLCPCB</a>                
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#基板">基板</a>                
+    
+
+    <!-- Tags -->  
+    
+                    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#RCJ">RCJ</a>               
+    
+
+    </div>
+
+    
+    
+    
+    <div class="blog-grid-container">
+        
+        
+            
+            
+        
+            
+        
+            
+        
+        
+        
+            
+            
+        
+            
+        
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/20231125/">
+                
+
+                    
+                        <img class="img-thumb" src="/assets/images/2023/1125/hero.jpg" alt="JLCPCBにおいての基盤発注"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/20231125/">JLCPCBにおいての基盤発注</a>
+                
+            </h2>
+            <h4 class="card-text">みなさん。JLCPCBを使ったことはありますか？
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpg" alt="そら">
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name font-weight-bold">そら</span> 
+                
+                <span class="post-date">25 Nov 2023</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+        
+        
+            
+            
+        
+            
+        
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/20230924/">
+                
+
+                    
+                        <img class="img-thumb" src="/assets/images/2023/0924/hero.jpg" alt="ラインセンサー基板（ミス）"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/20230924/">ラインセンサー基板（ミス）</a>
+                
+            </h2>
+            <h4 class="card-text">タイトルについて
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpg" alt="そら">
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name font-weight-bold">そら</span> 
+                
+                <span class="post-date">24 Sep 2023</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+        
+        
+            
+            
+        
+            
+        
+            
+        
+        
+        
+            
+            
+        
+            
+        
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/20230809/">
+                
+
+                    
+                        <img class="img-thumb" src="/assets/images/2023/0809/hero.jpg" alt="JLCPCBとの契約"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/20230809/">JLCPCBとの契約</a>
+                
+            </h2>
+            <h4 class="card-text">こんにちは。ブログも久しぶりですね。
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpg" alt="そら">
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name font-weight-bold">そら</span> 
+                
+                <span class="post-date">09 Aug 2023</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+                
+        </div>        
+</div>
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+            </div>
+
+            
+
+        </div>
+
+        <!-- Begin Footer
+================================================== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                        Copyright © 2024 そらのサイト
+                    </div> -->
+                    <div class="col-md-6 col-sm-12 text-center text-lg-right">
+                        <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll
+                            Theme</a> by WowThemes.net
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer
+================================================== -->
+
+    </div> <!-- /.site-content -->
+
+    <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+
+    <script src="/assets/js/prism.js"></script>
+
+    <script src="/assets/js/theme.js"></script>
+
+    
+
+    
+    <script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+    
+
+</body>
+
+</html>

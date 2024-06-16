@@ -3,11 +3,282 @@
   <channel>
     <title>そらのサイト</title>
     <description>そらのサイト</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Mar 2024 20:21:43 +0900</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2024 20:21:43 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 16 Jun 2024 11:54:02 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Jun 2024 11:54:02 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>NeoPixel制御指南</title>
+        <description>&lt;p&gt;超お久しぶりです。&lt;br /&gt;
+最近は受験生なもので、全然したいことができてないわけなんですが、
+NeoPixelを乗っけたロボットを全国大会に持っていったら案外興味を持ってくれました。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;主に興味を持ってくれた人たち&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;FTomo&lt;a href=&quot;https://twitter.com/Ftomo&quot;&gt;@ftomo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;会場にいたたくさんのロボカッパーさんたち&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ありがとうございます&lt;/p&gt;
+
+&lt;p&gt;てなわけで。始めましょうか。&lt;/p&gt;
+
+&lt;p&gt;ひかるんばっていわれたんですけど、Root41の固有名詞ですよね…？&lt;br /&gt;
+まあ個人的にはずっと実装したかったので、うれしいです。&lt;/p&gt;
+
+&lt;h2 id=&quot;今回協力していただいた方々&quot;&gt;今回協力していただいた方々&lt;/h2&gt;
+&lt;p&gt;このNeoPixelの回路、プログラムの参考にした方、およびサイトを掲載させていただきます。&lt;/p&gt;
+
+&lt;h3 id=&quot;協力していただいた方々&quot;&gt;協力していただいた方々&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jlcpcb.jp&quot;&gt;@JLCPCB&lt;/a&gt;&lt;br /&gt;
+スポンサーについていただいている海外企業様です。&lt;br /&gt;
+NeoPixelの基板の発注をお願いいたしました。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://twitter.com/scramble_JPN&quot;&gt;次世代ロボットエンジニア支援機構 Scramble&lt;/a&gt;&lt;br /&gt;
+実験にあたり、支援していただいた、ブレッドボードを使用させていただいております。&lt;br /&gt;
+ご支援、ありがとうございます。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;しろくま胡瓜&lt;a href=&quot;https://twitter.com/shirokuma89dev&quot;&gt;@shirokuma89dev&lt;/a&gt;&lt;br /&gt;
+今回、回路のミスがないかを見ていただきました。&lt;br /&gt;
+にしても、サタデープログラムで会うなんて奇遇ですね…&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;参考にしたサイト&quot;&gt;参考にしたサイト&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.shirokuma89.dev/20210424/&quot;&gt;NeoPixel指南 ｜ しろくま胡瓜の自由帳&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://qiita.com/karaage0703/items/a14f759f321df99771bd&quot;&gt;ラズパイでNeoPixel（マイコン内蔵RGB LED）を手軽に激しくLチカする方法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://qiita.com/doyodoyo/items/1cc581b32f1a4458c5f2&quot;&gt;ArduinoでNeoPixelを動かす&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://ameblo.jp/gameprograming/entry-12787447697.html&quot;&gt;ArduinoでNeoPixelを動かす方法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.hrendoh.com/neopixel-ring-effects/&quot;&gt;NeoPixelリングに使えるエフェクト実装例集&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本当に、ありがとうございます。&lt;/p&gt;
+
+&lt;h2 id=&quot;この記事を見るうえでの前提&quot;&gt;この記事を見るうえでの前提&lt;/h2&gt;
+&lt;p&gt;この記事では、以下のことについては解説しません。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arduinoの概要・および操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;念のため環境をば&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary&gt;環境&lt;/summary&gt;
+
+  項目 | -
+  -|-
+  OS | Windows 11 Home 23H2
+  マイコン | Arduino MEGA 2560 (ELEGOO)
+  IDE | Arduino IDE 2.0.4
+
+  ライブラリ名 | バージョン
+  -|-
+  Adafruit NeoPixel | 1.12.0
+&lt;/details&gt;
+
+&lt;p&gt;今回は&lt;strong&gt;WS2812B&lt;/strong&gt;を使用します。&lt;br /&gt;
+使用する物によって電圧が変化する場合がありますので、&lt;strong&gt;必ずデータシートを見てください&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;また、今回使用したデータ（以下参照）を公開します。
+公開するデータ&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;基板データ(Eagle)&lt;/li&gt;
+  &lt;li&gt;BOM, CPL&lt;/li&gt;
+  &lt;li&gt;今回使用するプログラム&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;です。&lt;br /&gt;
+&lt;a href=&quot;https://github.com/CoffeeMilk-RCJ/NeoPixel&quot;&gt;CoffeeMilk-RCJ/NeoPixel - GitHub&lt;/a&gt;&lt;br /&gt;
+ライセンスは、CC　BY-NC-ND 4.0です。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;現在、まだ追加完了していません&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;なんでそんなのつけるねん&quot;&gt;なんでそんなのつけるねん&lt;/h2&gt;
+&lt;p&gt;言いたいことはわかります。&lt;br /&gt;
+理由は、&lt;strong&gt;デバッグのため&lt;/strong&gt;です。&lt;br /&gt;
+以下の動画を見てください。&lt;br /&gt;
+こちらの動画では、コンパスの向きを表しています。&lt;/p&gt;
+
+&lt;p&gt;ロボカッパーの皆様なら一度は体験したことある、コンパス狂いです。
+急に相手のほう向かれても困りますよね。でも、&lt;strong&gt;一発でわからない&lt;/strong&gt;じゃないですか。なので実装しました。&lt;/p&gt;
+
+&lt;p&gt;また、ライトウェイトでは、有名な話ですが、&lt;strong&gt;白線を超えてはいけません&lt;/strong&gt;。&lt;br /&gt;
+その時に、全体の色を変えるように変更したりすることもできます。&lt;/p&gt;
+
+&lt;p&gt;具体的には以下のような感じです（実演）&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;※音声を0にしてみてください&lt;a href=&quot;https://twitter.com/hashtag/%E4%BB%8A%E6%97%A5%E3%81%AE%E9%80%B2%E6%8D%97?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#今日の進捗&lt;/a&gt;　その1&lt;br /&gt;・起動のアニメーション&lt;br /&gt;・コンパスの位置を光で表す&lt;br /&gt;・ラインの時の処理 &lt;a href=&quot;https://t.co/HXSUUsmHEu&quot;&gt;pic.twitter.com/HXSUUsmHEu&lt;/a&gt;&lt;/p&gt;&amp;mdash; そら @WSL027 (@sora81dev) &lt;a href=&quot;https://twitter.com/sora81dev/status/1771062046945317194?ref_src=twsrc%5Etfw&quot;&gt;March 22, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;また、&lt;strong&gt;色の自由度が高い&lt;/strong&gt;です。
+もし、色付きLEDで、ルールに違反する色だった場合、外すか、プログラム上から消すしかありません。&lt;br /&gt;
+しかし、NeoPixelは&lt;strong&gt;後から色を変更&lt;/strong&gt;できます。&lt;/p&gt;
+
+&lt;p&gt;え？フルカラーLEDでいいって？&lt;br /&gt;
+それは次の章でわかります。&lt;/p&gt;
+
+&lt;h2 id=&quot;neopixelの概要&quot;&gt;NeoPixelの概要&lt;/h2&gt;
+&lt;p&gt;概要についてですが、NeoPixelという部品。ご存知でしょうか？&lt;br /&gt;
+こちらは&lt;strong&gt;マイコン付きLED&lt;/strong&gt;みたいなものでして、自由に色を指定出来ちゃいます。&lt;/p&gt;
+
+&lt;p&gt;そしてそして！ここが&lt;strong&gt;超魅力&lt;/strong&gt;でして、通信ケーブルが&lt;strong&gt;電源（2本）+通信用（1本）のみ&lt;/strong&gt;なんですよね。個数制限？そんなのは&lt;strong&gt;存在しません&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;追記✎&lt;/p&gt;
+
+  &lt;p&gt;個数制限がないといいましたが、それ相応の電源は必要になります。&lt;br /&gt;
+なので、無限ではありません。&lt;br /&gt;
+しかしながら、ロボカップで使用するぐらいなら十分すぎるぐらいだと思います。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;こんな簡単なのに&lt;strong&gt;超簡単に制御できちゃう&lt;/strong&gt;って本当？&lt;br /&gt;
+はい。もちろん&lt;strong&gt;本当&lt;/strong&gt;です。&lt;/p&gt;
+
+&lt;p&gt;では、さっそく、回路の設計から行きましょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;neopixelの回路&quot;&gt;NeoPixelの回路&lt;/h2&gt;
+&lt;p&gt;これがですね、&lt;strong&gt;超簡単&lt;/strong&gt;なんです。&lt;br /&gt;
+みてください。これだけです。
+&lt;img src=&quot;../assets/images/2024/0616/01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;信じられますか？&lt;br /&gt;
+マジでこんだけです。&lt;/p&gt;
+
+&lt;p&gt;今回の回路の発注は、JLCPCBさんに依頼しました。&lt;br /&gt;
+本当にありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;発注した基盤はこれです
+&lt;img src=&quot;../assets/images/2024/0616/02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;現在、画像用意中です。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;それにPLAで3Dプリントしたカバーをつけてます。&lt;/p&gt;
+
+&lt;p&gt;では、解説行きます。
+まず、あたりまえですが、電源が必要になります。
+3.3Vですね。
+それをNeoPixelのVCCとGNDにつなげてあげてください。
+そして、&lt;strong&gt;PWM対応のデジタルピン&lt;/strong&gt;をD-inにつなげてください。
+これが1個めのつなげ方です。&lt;/p&gt;
+
+&lt;p&gt;2個目以降は電源をつなげて、1個めのD-outを2個めのD-inにつなげるだけです。&lt;br /&gt;
+つまり、前のD-inを次のD-outにつなげてあげるだけです。&lt;br /&gt;
+最後のD-outは繋げてはいけません。(気になるならGNDに落とすかぐらいです)&lt;/p&gt;
+&lt;h2 id=&quot;neopixelの制御&quot;&gt;NeoPixelの制御&lt;/h2&gt;
+&lt;p&gt;さて、本題に入りましょうか。&lt;br /&gt;
+まずは見てみましょう。百聞は一見に如かずです。&lt;br /&gt;
+これが必要最低限のプログラムです。&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/sora81dev/7acae97fab7bafabb8f6344d6f993184.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;順に解説していきます。&lt;br /&gt;
+まずは定義(define)から。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;意味&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PIN&lt;/td&gt;
+      &lt;td&gt;NeoPixelを刺しているピン&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NUM_PIXELS&lt;/td&gt;
+      &lt;td&gt;NeoPixelの数&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;※PWM対応のデジタルピンにNeoPixelを刺してください。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;では、いよいよ光らせ方です。&lt;/p&gt;
+&lt;h3 id=&quot;pixelsclear-で全部消そう&quot;&gt;pixels.clear() で全部消そう&lt;/h3&gt;
+&lt;p&gt;これは基本です。これを入れないと消えないです。&lt;br /&gt;
+とりあえず脳死で最初に入れときましょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;pixelssetbrightness-で光の強さを決めよう&quot;&gt;pixels.setBrightness() で光の強さを決めよう&lt;/h3&gt;
+&lt;p&gt;Brightness、日本語で光の強さという意味です。&lt;br /&gt;
+光の強さによっては目を傷めたり、ルールに違反する恐れがあるのでほどほどに。&lt;/p&gt;
+
+&lt;h3 id=&quot;pixelssetpixelcolor-でどこをどんな色に光らせるかを決めよう&quot;&gt;pixels.setPixelColor() でどこをどんな色に光らせるかを決めよう&lt;/h3&gt;
+&lt;p&gt;この中には2つの値を入れる必要があります。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;光らせる位置&lt;/li&gt;
+  &lt;li&gt;色&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;光らせる位置は普通に数字(int)で指定すればいいです。
+色は少しだけ面倒で、pixels.Color(R, G, B) にRGBを突っ込んでやればうまい事光ってくれます。&lt;/p&gt;
+
+&lt;p&gt;…長々と書きましたが、&lt;strong&gt;めんどいですよね&lt;/strong&gt;&lt;br /&gt;
+サンプル使っちゃいましょう！！！！！&lt;br /&gt;
+使えるものは使っちゃおう！の精神で行った方が気楽ですよ。&lt;/p&gt;
+
+&lt;p&gt;では早速。
+ファイル＞スケッチ例＞Adafruit NeoPixel&lt;br /&gt;
+たくさんありますね～&lt;br /&gt;
+(無かったら、ライブラリインスコしてあげてください。)&lt;br /&gt;
+さっそく、Simpleを選んでみてください。
+このような画面が出てくると思います。
+&lt;img src=&quot;../assets/images/2024/0616/03.png&quot; alt=&quot;&quot; /&gt;
+あとは先ほどと同じように、&lt;br /&gt;
+PINにNeoPixelの刺さっているピン。（PWM対応）&lt;br /&gt;
+NUMPIXELSにつなげているNeoPixelの数を入れてあげてください。&lt;br /&gt;
+そうするとうまい事行くはずです。&lt;/p&gt;
+
+&lt;p&gt;実演するとこのようになります。
+※プログラムはbuttoncyclerを使用しています。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/NeoPixel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NeoPixel&lt;/a&gt;&lt;br /&gt;治りました！&lt;br /&gt;良かったです！&lt;br /&gt;ちなみに治った原因は不明！&lt;br /&gt;&lt;br /&gt;Program : [Sample] buttoncycler&lt;br /&gt;&lt;br /&gt;Shot on SONY IXY 510 is&lt;br /&gt;1280x720 30fps &lt;a href=&quot;https://t.co/g20jIjjahw&quot;&gt;https://t.co/g20jIjjahw&lt;/a&gt; &lt;a href=&quot;https://t.co/XxVzQQHW8a&quot;&gt;pic.twitter.com/XxVzQQHW8a&lt;/a&gt;&lt;/p&gt;&amp;mdash; そら @WSL027 (@sora81dev) &lt;a href=&quot;https://twitter.com/sora81dev/status/1770810481806094483?ref_src=twsrc%5Etfw&quot;&gt;March 21, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;バグるときは&quot;&gt;バグるときは&lt;/h2&gt;
+&lt;p&gt;私自身も、なぜかバグるという現象が発生しました。それに対しての対応を見ていきましょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;なんか変な色がついたりするんだけど&quot;&gt;なんか変な色がついたりするんだけど？&lt;/h3&gt;
+&lt;p&gt;NeoPixelは&lt;strong&gt;ノイズに弱いです&lt;/strong&gt;。&lt;br /&gt;
+はんだ付けがうまい事言っているか、見てあげてください。&lt;/p&gt;
+
+&lt;h3 id=&quot;うまく光らない&quot;&gt;うまく光らない！&lt;/h3&gt;
+&lt;p&gt;おそらく、電流もしくは電圧が足りていないのでしょう。&lt;br /&gt;
+NeoPixelは、3.3Vの電圧を要します。&lt;br /&gt;
+また、個数が増えれば増えるほど、たくさん電流が必要になります。&lt;br /&gt;
+電源を見直してみましょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;それでも動かん&quot;&gt;それでも動かん！&lt;/h2&gt;
+&lt;p&gt;DMしてみてください。できる限り対応します。
+&lt;a href=&quot;https://twitter.com/sora81dev&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Jun 2024 11:55:00 +0900</pubDate>
+        <link>http://localhost:4000/20240616/</link>
+        <guid isPermaLink="true">http://localhost:4000/20240616/</guid>
+        
+        <category>RCJJ</category>
+        
+        
+        <category>制御</category>
+        
+      </item>
     
       <item>
         <title>岐阜ブロック</title>
@@ -90,10 +361,10 @@ SpeeD Shooter(&lt;a href=&quot;https://twitter.com/SpeeDShooteR06&quot;&gt;@Spee
 &lt;p&gt;&lt;img src=&quot;https://sora81.dev/assets/images/2024/0302/07.jpg&quot; alt=&quot;JLCPCB-1&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Mar 2024 23:32:00 +0900</pubDate>
-        <link>/20240302/</link>
-        <guid isPermaLink="true">/20240302/</guid>
+        <link>http://localhost:4000/20240302/</link>
+        <guid isPermaLink="true">http://localhost:4000/20240302/</guid>
         
-        <category>RCJJ2024</category>
+        <category>RCJJ</category>
         
         
         <category>結果報告</category>
@@ -129,8 +400,8 @@ SpeeD Shooter(&lt;a href=&quot;https://twitter.com/SpeeDShooteR06&quot;&gt;@Spee
 &lt;p&gt;来年も撮ります！！！(もはや風物詩)&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Feb 2024 22:22:00 +0900</pubDate>
-        <link>/20240222/</link>
-        <guid isPermaLink="true">/20240222/</guid>
+        <link>http://localhost:4000/20240222/</link>
+        <guid isPermaLink="true">http://localhost:4000/20240222/</guid>
         
         <category>猫</category>
         
@@ -258,8 +529,8 @@ PCB Assemblyはない条件として進めます（追記予定）&lt;/p&gt;
 &lt;p&gt;明日はノード大会なので寝ますね。おやすみなさい！&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 Nov 2023 22:12:00 +0900</pubDate>
-        <link>/20231125/</link>
-        <guid isPermaLink="true">/20231125/</guid>
+        <link>http://localhost:4000/20231125/</link>
+        <guid isPermaLink="true">http://localhost:4000/20231125/</guid>
         
         <category>JLCPCB</category>
         
@@ -322,8 +593,8 @@ PCB Assemblyはない条件として進めます（追記予定）&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sun, 24 Sep 2023 13:44:00 +0900</pubDate>
-        <link>/20230924/</link>
-        <guid isPermaLink="true">/20230924/</guid>
+        <link>http://localhost:4000/20230924/</link>
+        <guid isPermaLink="true">http://localhost:4000/20230924/</guid>
         
         <category>RCJ</category>
         
@@ -414,8 +685,8 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
 &lt;p&gt;また次の時まで。じゃあね👋&lt;/p&gt;
 </description>
         <pubDate>Sun, 13 Aug 2023 17:49:00 +0900</pubDate>
-        <link>/20230813/</link>
-        <guid isPermaLink="true">/20230813/</guid>
+        <link>http://localhost:4000/20230813/</link>
+        <guid isPermaLink="true">http://localhost:4000/20230813/</guid>
         
         <category>RCJ</category>
         
@@ -467,8 +738,8 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
 &lt;p&gt;つぎはJLCPCBとはどんな企業なのか。を詳しくお伝えしたいと思います。&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Aug 2023 00:00:00 +0900</pubDate>
-        <link>/20230809/</link>
-        <guid isPermaLink="true">/20230809/</guid>
+        <link>http://localhost:4000/20230809/</link>
+        <guid isPermaLink="true">http://localhost:4000/20230809/</guid>
         
         <category>RCJ</category>
         
@@ -497,8 +768,8 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Wed, 22 Feb 2023 22:53:00 +0900</pubDate>
-        <link>/20230222/</link>
-        <guid isPermaLink="true">/20230222/</guid>
+        <link>http://localhost:4000/20230222/</link>
+        <guid isPermaLink="true">http://localhost:4000/20230222/</guid>
         
         <category>趣味</category>
         
@@ -516,8 +787,8 @@ Blendのいぬわしくんを実際に高専Open Canvasのときに見てきま�
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sun, 29 Jan 2023 10:36:00 +0900</pubDate>
-        <link>/20240129/</link>
-        <guid isPermaLink="true">/20240129/</guid>
+        <link>http://localhost:4000/20240129/</link>
+        <guid isPermaLink="true">http://localhost:4000/20240129/</guid>
         
         
         <category>NewSites</category>

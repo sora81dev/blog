@@ -227,19 +227,18 @@ NeoPixelの基板の発注をお願いいたしました。</p>
   <li>Arduinoの概要・および操作</li>
 </ul>
 
-<p>念のため環境をば</p>
-<details>
-  <summary>環境</summary>
+<details><summary>環境</summary>
 
-  項目 | -
-  -|-
-  OS | Windows 11 Home 23H2
-  マイコン | Arduino MEGA 2560 (ELEGOO)
-  IDE | Arduino IDE 2.0.4
+|項目|値|
+|-|-|
+|OS | Windows 11 Home 23H2|
+|マイコン | Arduino MEGA 2560 (ELEGOO)|
+|IDE | Arduino IDE 2.0.4|
 
-  ライブラリ名 | バージョン
-  -|-
-  Adafruit NeoPixel | 1.12.0
+|ライブラリ名 | バージョン|
+|-|-|
+|Adafruit NeoPixel | 1.12.0|
+
 </details>
 
 <p>今回は<strong>WS2812B</strong>を使用します。<br />
@@ -322,7 +321,7 @@ NeoPixelの基板の発注をお願いいたしました。</p>
 
 <p>では、解説行きます。
 まず、あたりまえですが、電源が必要になります。
-3.3Vですね。
+5Vですね。
 それをNeoPixelのVCCとGNDにつなげてあげてください。
 そして、<strong>PWM対応のデジタルピン</strong>をD-inにつなげてください。
 これが1個めのつなげ方です。</p>
@@ -410,7 +409,7 @@ NUMPIXELSにつなげているNeoPixelの数を入れてあげてください。
 
 <h3 id="うまく光らない">うまく光らない！</h3>
 <p>おそらく、電流もしくは電圧が足りていないのでしょう。<br />
-NeoPixelは、3.3Vの電圧を要します。<br />
+NeoPixelは、5Vの電圧を要します。<br />
 また、個数が増えれば増えるほど、たくさん電流が必要になります。<br />
 電源を見直してみましょう。</p>
 

@@ -5,8 +5,8 @@
     <description>そらのサイト</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Jun 2024 11:57:55 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Jun 2024 11:57:55 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Jun 2024 17:37:34 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Jun 2024 17:37:34 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -79,19 +79,18 @@ NeoPixelの基板の発注をお願いいたしました。&lt;/p&gt;
   &lt;li&gt;Arduinoの概要・および操作&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;念のため環境をば&lt;/p&gt;
-&lt;details&gt;
-  &lt;summary&gt;環境&lt;/summary&gt;
+&lt;details&gt;&lt;summary&gt;環境&lt;/summary&gt;
 
-  項目 | -
-  -|-
-  OS | Windows 11 Home 23H2
-  マイコン | Arduino MEGA 2560 (ELEGOO)
-  IDE | Arduino IDE 2.0.4
+|項目|値|
+|-|-|
+|OS | Windows 11 Home 23H2|
+|マイコン | Arduino MEGA 2560 (ELEGOO)|
+|IDE | Arduino IDE 2.0.4|
 
-  ライブラリ名 | バージョン
-  -|-
-  Adafruit NeoPixel | 1.12.0
+|ライブラリ名 | バージョン|
+|-|-|
+|Adafruit NeoPixel | 1.12.0|
+
 &lt;/details&gt;
 
 &lt;p&gt;今回は&lt;strong&gt;WS2812B&lt;/strong&gt;を使用します。&lt;br /&gt;
@@ -174,7 +173,7 @@ NeoPixelの基板の発注をお願いいたしました。&lt;/p&gt;
 
 &lt;p&gt;では、解説行きます。
 まず、あたりまえですが、電源が必要になります。
-3.3Vですね。
+5Vですね。
 それをNeoPixelのVCCとGNDにつなげてあげてください。
 そして、&lt;strong&gt;PWM対応のデジタルピン&lt;/strong&gt;をD-inにつなげてください。
 これが1個めのつなげ方です。&lt;/p&gt;
@@ -262,7 +261,7 @@ NUMPIXELSにつなげているNeoPixelの数を入れてあげてください。
 
 &lt;h3 id=&quot;うまく光らない&quot;&gt;うまく光らない！&lt;/h3&gt;
 &lt;p&gt;おそらく、電流もしくは電圧が足りていないのでしょう。&lt;br /&gt;
-NeoPixelは、3.3Vの電圧を要します。&lt;br /&gt;
+NeoPixelは、5Vの電圧を要します。&lt;br /&gt;
 また、個数が増えれば増えるほど、たくさん電流が必要になります。&lt;br /&gt;
 電源を見直してみましょう。&lt;/p&gt;
 
